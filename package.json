@@ -1,0 +1,43 @@
+{
+  "name": "uix.park.supabaseauth.nextjs.template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next && pnpm prepare && next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "panda codegen --clean && uix",
+    "uix": "uix"
+  },
+  "dependencies": {
+    "@ark-ui/react": "^3.3.0",
+    "@hookform/resolvers": "^3.6.0",
+    "@radix-ui/themes": "^3.1.1",
+    "@supabase/ssr": "^0.4.0",
+    "@supabase/supabase-js": "^2.44.0",
+    "@tanstack/react-query": "^5.49.2",
+    "@thinairthings/uix": "^2.4.3",
+    "@thinairthings/utilities": "^0.0.6",
+    "lucide-react": "^0.395.0",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.0",
+    "react-international-phone": "^4.3.0",
+    "rxjs": "^7.8.1",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.41.0",
+    "@park-ui/panda-preset": "^0.38.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
+    "typescript": "^5"
+  }
+}
